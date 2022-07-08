@@ -2,3 +2,52 @@
     width: 1000px;
     margin: 10px calc(50% - 500px);
 }
+
+@media (max-width: 900px){
+.container {
+    width: 600px;
+    margin:10px calc(50% - 300px);}
+.container > .ads {
+        display: none;
+    }
+.container > .header, .main, .testimonial, .services, .freelance {
+width: 600px;
+    } 
+.container > .services {
+    grid-row: 1/2;}
+.container > .testimonials {
+    grid-row: 2/3;
+}  
+.container > .freelance {
+    grid-row: 3/4;
+}
+.container > .top1 > .right {
+    display:none;
+}
+.container > .top1 > .center {
+    margin: 10px 10px 10px 250px;
+}
+.container > .services > .five {
+        display:none;}
+.container > .services > .word2 {
+    top: 30px;
+    left: 240px;}
+.container > .services > .three {
+    top: 79px;
+        right: 341px;}
+.container > .services > .four {
+    top: 99px;
+    right: 15px;
+}
+.container > .testimonials > .word {
+    top: 10px;
+    left: 210px;}
+.container > .testimonials > .one {
+    top: 50px;
+    left: 10px;
+}
+.container > .testimonials > .two {
+    top: 39px;
+    left: 289px;
+}
+}

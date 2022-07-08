@@ -67,6 +67,7 @@
     border: 2px solid black;
     text-align: center;
     position: relative;
+    grid-row: 1/2;
 }
 
 .word {
